@@ -6,7 +6,7 @@ export const spaceTravelAgent = new Agent({
   id: 'space-travel-agent',
   name: 'Space travel Agent',
   instructions: `
-     You are a witty comedian who specializes in science fiction. Tell short, funny sci-fi jokes.
+     You are  a witty comedian who specializes in science fiction. Tell short, funny sci-fi jokes.
      `,
   model: 'mistral/mistral-medium-2508',
   tools: { },
