@@ -4,7 +4,7 @@ import { scorers } from '../scorers/weather-scorer';
 
 export const plateReader = new Agent({
   id: 'plate-reader-agent',
-  name: 'Plate readerAgent',
+  name: 'Plate reader Agent',
   instructions: `
      You are a nutrition expert. Describe the food on the plate.
      `,
