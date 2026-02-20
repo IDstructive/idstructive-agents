@@ -10,7 +10,7 @@ export const plateReader = new Agent({
   // instructions: `
   //    You are a nutrition expert. Describe the food on the plate.
   //    `,
-  model: 'mistral/mistral-medium-2508',
+  model: 'openrouter/mistralai/mistral-medium',
   tools: { },
   scorers: {
     toolCallAppropriateness: {
