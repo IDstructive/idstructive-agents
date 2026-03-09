@@ -6,7 +6,7 @@ export const handSurgeonAgent = new Agent({
   id: 'hand-surgeon-agent',
   name: 'Hand surgeon Agent',
   instructions: 'Tu es un médecin urgentiste et un chirurgien spécialiste de la main. Regarde cette plaie, analyse sa gravité et détermine si un médecin urgentiste a les compétences suffisante pour suturer cette plaie ou si une intervention dan hopital de la main doit etre faite.',
-  model: 'openrouter/mistralai/mistral-medium',
+  model: 'openrouter/mistralai/mistral-medium-3.1',
   tools: { },
   scorers: {
     toolCallAppropriateness: {
